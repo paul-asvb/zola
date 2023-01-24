@@ -224,4 +224,13 @@ The `index.html` file inside the `templates` directory should be:
 {% endblock content %}
 ```  
 
+### Debugging
+
+In case you are stuck you can always look at the documentation of [tera](https://tera.netlify.app/) or print the global context in your console 
+```html
+<script>console.log({{ __tera_context  }})</script>
+```  
+
 This has been a quick overview of Zola. You can now dive into the rest of the documentation.
+
+
